@@ -1,3 +1,59 @@
-h1 {
-  color: red;
+
+
+body {
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  background-image: url('http://skipperkongen.dk/wp-content/uploads/2017/05/27340232-triangles-wallpapers.jpg');
+
+}
+
+.colors {
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+}
+
+button {
+  background-color: green;
+  font-size: 24px;
+  padding: 32px 16px;
+  border-radius: 12px;
+  border: white;
+  font-family: 'Lato', sans-serif;
+
+}
+
+button:hover, .fa-twitter-square:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.well {
+  background-image: url('http://skipperkongen.dk/wp-content/uploads/2017/05/27340232-triangles-wallpapers.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  margin-top: 50px;
+  border-radius: 12px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+i {
+  margin-top: 75px;
+}
+
+p {
+  font-size: 36px;
+}
+
+.attributedTo {
+  color: black;
+  font-size: 24px;
 }

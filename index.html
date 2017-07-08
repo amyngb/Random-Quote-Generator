@@ -3,40 +3,50 @@
   <head>
     <meta charset="utf-8">
     <title>Random Quote Generator</title>
-    <style media="screen" src = "css/quotes.css"></style>
+    <link type="text/css" rel="stylesheet" href="css/quotes.css"></link>
     <link type="text/css" rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
     <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
   <body>
 <div class="row text-center">
 <div class="col-xs-12">
   <header>
-    <h1>Quotation Nation</h1>
+    <h1 class="colors">Amy's Inspirational Quotes</h1>
   </header>
 </div>
 </div>
 
 
 <div class="row text-center">
-<div class="quotebox col-md-3">
-  <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
-</div>
+<div class="quotebox col-md-3"></div>
 <div class="quotebox col-md-6">
 <button id="getMessage" type="button" name="button">Click here for a quotation!</button>
 </div>
-<div class="quotebox col-md-3">
-  <i class="fa fa-quote-right fa-5x" aria-hidden="true"></i>
-</div>
+<div class="quotebox col-md-3"></div>
 </div>
 
 <div class = "row text-center">
-    <div class = "col-xs-12 well message">
-      The message will go here
+    <div class = "col-xs-3 text-center">
+      <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
     </div>
-  </div>
+    <div class = "col-xs-6 well text-center">
+      <blockquote class="blockquote center-block">
+        <p class = 'message'>'...' </p>
+        <footer class = 'attributedTo'><em> </em> </footer>
+      </blockquote>
+    </div>
+    <div class = "col-xs-3 text-center">
+      <i class="fa fa-quote-right fa-5x" aria-hidden="true"></i>
+    </div>
+</div>
+<div class='twitter text-center'>
+  <a class='btn' target="_blank" href="https://twitter.com/intent/tweet/?text=" data-size="large">
+  <i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i>
+  </a>
+</div>
 
 <script type="text/javascript" src="js/quotes.js"></script>
 <!--<script src="//code.jquery.com/jquery-3.2.1.min.js"></script> -->
